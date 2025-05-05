@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Chinese Rocks';
+    src: url('fonts/chinese-rocks.otf') format('truetype');
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: url('images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Chinese Rocks', sans-serif;
+    color: #fff;
+  }
+  
+  .menu {
+    text-align: center;
+    padding-top: 80px;
+  }
+  
+  .menu h1 {
+    font-size: 64px;
+    color: #b22222;
+    text-shadow: 3px 3px 0 #000;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+  }
+  
+  .menu li {
+    font-size: 32px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .menu li:hover {
+    color: #ffd700;
+  }
+  
+  .weapon-wheel {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 300px;
+    border: 30px solid rgba(48, 47, 47, 0.3);
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .weapon-slot {
+    position: absolute;
+    width: 80px;
+    text-align: center;
+    font-size: 16px;
+    background: rgba(0,0,0,0.6);
+    padding: 6px;
+    border-radius: 10px;
+  }
+  
+  .top {
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .right {
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .bottom {
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .left {
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    background: rgba(255, 0, 0, 0.7);
+    padding: 10px 15px;
+    border-radius: 50%;
+  }
+  
